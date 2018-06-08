@@ -27,7 +27,7 @@ You are provided with 3 endpoints:
 
 ### GET /food
 
-Example: http://foodcards.getsandbox.com/food
+Example: https://foodcards.getsandbox.com/food
 
 Response body:
 
@@ -54,7 +54,7 @@ Response body:
 
 ### GET /more
 
-Example: http://foodcards.getsandbox.com/more
+Example: https://foodcards.getsandbox.com/more
 
 Response body:
 
@@ -81,7 +81,7 @@ Response body:
 
 ### GET /filters
 
-Example: http://foodcards.getsandbox.com/filters
+Example: https://foodcards.getsandbox.com/filters
 
 Response body:
 
