@@ -1,8 +1,8 @@
 # Food Me
 
 ### Introduction
-For this project, you are implementing a simple food card system called food me.
-The product is simple:  The user is initially show a list of 4 food cards.  
+For this project, you are implementing a simple food card system called Food Me.
+The product is simple:
 
 * The user is shown a list of 4 cards
 * Each card has a picture of the food on the front, and has the title and description on the back. Each food item also has a collection of tags.
