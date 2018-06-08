@@ -1,17 +1,20 @@
 # Food Me
 
 ### Introduction
-For this project, you are implementing a simple food card system called Food Me.
+For this project, you are implementing a simple card system called Food Me.
 The product is simple:
 
 * The user is shown a list of 4 cards
-* Each card has a picture of the food on the front, and has the title and description on the back. Each food item also has a collection of tags.
-* When a card first loads, it displays the "front" with an image. Tapping on the card flips it to it's back.
+* Each card has a picture of food on its front, and has a title and description on its back. Each card also has a collection of tags.
+* When a card is first loaded, it should display the "front" with an image. Tapping on the card flips it to its back.
 * The user can tap the "Get More" button to get additional cards in their feed.
-* At the top of the feed, there are are a collection of filters. Tapping one one of these filters will show only the cards that match.
+* At the top of the feed, there is a collection of filters. Tapping on one of these filters will show only the cards that match.
 
-You can use any tools or frameworks you are comfortable with to complete this task.
-The end result should be a working app + source, that can be built and run on the interviewer's machine.
+### Requirements
+
+* You can use any tools or frameworks you are comfortable with to complete this task.
+* The end result should be a working app + source, that can be built and run on the interviewer's machine.
+* Submissions should be fully native, written in Swift.
 
 ### Design
 Your team has provided you with a UI mock, seen below:
@@ -21,13 +24,13 @@ Your team has provided you with a UI mock, seen below:
 ### API Resources
 You are provided with 3 endpoints:
 
-  - [GET /food](#get-food)
+  - [GET /cards](#get-food)
   - [GET /more](#get-more)
   - [GET /filters](#get-filters)
 
 ### GET /food
 
-Example: https://foodcards.getsandbox.com/food
+Example: https://foodcards.getsandbox.com/cards
 
 Response body:
 
