@@ -2,7 +2,7 @@
 
 ### Introduction
 For this project, you are implementing a simple card system called Food Me.
-The product is simple:
+The product works as follows:
 
 * The user is shown a list of 4 cards
 * Each card has a picture of food on its front, and has a title and description on its back. Each card also has a collection of tags.
@@ -24,7 +24,7 @@ Your team has provided you with a UI mock, seen below:
 ### API Resources
 You are provided with 3 endpoints:
 
-  - [GET /cards](#get-food)
+  - [GET /cards](#get-cards)
   - [GET /more](#get-more)
   - [GET /filters](#get-filters)
 
@@ -36,6 +36,7 @@ Response body:
 
       [
         {
+          "id": 1,
           "name": "Grilled Chicken",
           "image": "https://images.pexels.com/photos/262945/pexels-photo-262945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "description": "A protein staple in many modern diets.  Healthier than the fried variety.",
@@ -45,6 +46,7 @@ Response body:
           ]
         },
         {
+          "id": 2,
           "name": "Fried Chicken",
           "image": "https://images.pexels.com/photos/5619/plate-white-fish-chilli.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
           "description": "Chicken with a delicious crispy crust. A fan favorite.",
@@ -63,6 +65,7 @@ Response body:
 
       [
         {
+          "id": 1,
           "name": "Grilled Chicken",
           "image": "https://images.pexels.com/photos/262945/pexels-photo-262945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "description": "A protein staple in many modern diets.  Healthier than the fried variety.",
@@ -72,6 +75,7 @@ Response body:
           ]
         },
         {
+          "id": 2,
           "name": "Fried Chicken",
           "image": "https://images.pexels.com/photos/5619/plate-white-fish-chilli.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
           "description": "Chicken with a delicious crispy crust. A fan favorite.",
