@@ -1,4 +1,4 @@
-# food-cards
+# Food Me
 
 ### Introduction
 For this project, you are implementing a simple food card system called food me.
